@@ -1,0 +1,4 @@
+second_job:
+  cron: "1 0 * * *" # execute at every day at 00:01
+  class: "CarRankingTrackerJob"
+  queue: default
